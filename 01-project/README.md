@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-# React + Vite
+# Props Drilling
+
+This is my first React project.
+
+Built with React and Vite.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
