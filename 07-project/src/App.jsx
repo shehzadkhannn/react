@@ -1,0 +1,21 @@
+import Navbar from "./component/navbar";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Product from "./pages/product";
+import { Routes, Route } from "react-router-dom";
+const App = () => {
+  return (
+    <div className="bg-black h-screen overflow-auto text-white">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
+      </Routes>
+    </div>
+  );
+};
+
+export default App;
