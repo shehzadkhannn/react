@@ -4,7 +4,7 @@ const RightContent = (props) => {
   return (
     <div
       id="right"
-      className=" w-2/3 py-7 px-4 flex justify-center overflow-x-auto gap-10"
+      className=" w-2/3 py-7 px-4 flex justify-center overflow-x-auto gap-10 "
     >
       {props.user.map(function (elem, idx) {
         return (
